@@ -1,0 +1,20 @@
+body
+{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+input
+{
+    font-family: monospace;
+    width: 300px
+}
+
+code, input
+{
+    font-size: 1.2em;
+}
+
+code b
+{
+    color: red;
+}

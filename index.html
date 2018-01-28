@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contrôle d'erreur</title>
+    <link rel="stylesheet" href="style.css">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+</head>
+<body>
+<h1>Contrôle d'erreur</h1>
+
+<h2>Code de <i>Hamming</i></h2>
+
+<h3>Générer un code</h3>
+
+
+<label for="hamming-generator-input">Saisie : </label>
+<input id="hamming-generator-input" type="text"><br>
+<label for="hamming-generator-output">Résultat : </label>
+<code id="hamming-generator-output"></code><br>
+
+<h3>Contrôler un code</h3>
+<label for="hamming-check-input">Saisie : </label>
+<input id="hamming-check-input" type="text"><br>
+<label for="hamming-check-fix">Correction : </label>
+<code id="hamming-check-fix"></code><br>
+<label for="hamming-check-output">Résultat : </label>
+<code id="hamming-check-output"></code><br>
+
+<script type="text/javascript" src="lib/kotlin.js"></script>
+<script type="text/javascript" src="error-control.js"></script>
+
+</body>
+</html>
