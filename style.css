@@ -18,3 +18,10 @@ code b
 {
     color: red;
 }
+
+footer
+{
+    position: fixed;
+    left: 6px;
+    bottom: 6px;
+}
